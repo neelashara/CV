@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+
+
+
+
+body{
+    background-color: #F3E9DD;
+}
+
+hr{
+    border-color: #DAB88B;
+    border-style: none;  
+    border-top-style :dotted;
+    border-width: 5px;
+    width: 10%;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.contact{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #78938A;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.inputs{
+    text-align: center;
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Contact Me</h2>
+        <br>
+        <table class="contact" cellspacing="20" >
+  <form action="mailto:neelashara10@gmail.com" method="post" enctype="text/plain">
+    <tr>
+        <td><label>Your Name</label></td>
+            <td><input type="text" name="name"></td>
+    </tr>
+        <tr>
+            <td><label>Email</label></td>
+           <td> <input type="email" name="email"><br></td>
+        </tr>
+    <tr>
+        <td><label>Your Message</label></td>
+        <td><textarea name="message" rows="9" cols="40">
+        </textarea></td>
+    </tr> 
+
+</table>
+</div>
+<div class="inputs">    
+    <input type="submit" name="sumbit">
+    <input type="reset" value="Reset">
+</div>
+</form>
+
+ 
+
+
+
+    
+</body>
+</html>

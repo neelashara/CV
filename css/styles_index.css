@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: #F3E9DD;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    border-color: #DAB88B;
+    border-style: none;  
+    border-top-style :dotted;
+    border-width: 5px;
+    width: 10%;
+}
+    
+h3{
+    color: #A97155;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+h2{
+    font-size: 35px;
+    font-family: 'Beau Rivage', cursive;
+}
+.des{
+    font-family: 'Bebas Neue', cursive;
+    font-size: medium;
+    transition: 1s;
+}
+.des:hover{
+     font-size: larger;
+}
+
+.exp{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.skills{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.languages{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.footer{
+    font-family: 'Pacifico', cursive;
+}
+
+
+.geeks img {
+    width: 67%;
+    transition: 0.5s all ease-in-out;
+}
+   
+.geeks:hover img {
+    transform: scale(1.1);
+}
+
+.footer1{
+    font-size: medium;
+    transition: 1s;
+}
+.footer1:hover{
+     font-size: larger;
+}
+
+.footer2{
+    font-size: medium;
+    transition: 1s;
+}
+.footer2:hover{
+     font-size: larger;
+}
+
+.footer3{
+    font-size: medium;
+    transition: 1s;
+}
+.footer3:hover{
+     font-size: larger;
+}
+
+
